@@ -20,3 +20,4 @@ E o caminho para salvar o Log:
 
 ![image](https://github.com/WPSV/davinti/assets/57459858/9532b035-8b72-4852-b1d9-1b84845a0cdf)
 
+Utilizei React com Node.js na versão mais atual 20.11.1
