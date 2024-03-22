@@ -1,6 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/contact-app-server/node_modules
+/contact-app-server/.pnp
+/contact-app-server/.pnp.js
 /node_modules
 /.pnp
 .pnp.js

@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.boxInput {
+  margin-bottom: 15px;
+}
+
+.addNumber {
+  display: flex;
+  align-items: center;
+}
+
+.boxButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxButtons > button, .boxButtons > a {
+  margin: 0;
+}
+
+.boxNewNumbers {
+  overflow-y: scroll;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+.titleNewNumbers {
+  text-align: center;
+  border-bottom: 1px solid #F78259;
+  margin-bottom: 5px;
+}
+
+.newNumbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.currentNumber {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.iconRemoveNumber {
+  background-color: #F78259;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 4px 0px 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.iconRemoveNumber:hover {
+  background-color: #ff5c23;
+}
+
+.iconUpdateNumber {
+  background-color: #F78259;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 4px 0px 4px;
+  font-size: 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.iconUpdateNumber:hover {
+  background-color: #ff5c23;
+}
+
+.button {
+  background-color: #F78259;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.button:hover {
+  background-color: #ff5c23;
+}
