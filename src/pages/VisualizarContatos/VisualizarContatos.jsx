@@ -101,8 +101,7 @@ const VisualizarContatos = () => {
             </tr>
           </thead>
           <tbody>
-            {error && <tr colSpan="4"><td colSpan="4"><Error message={error} /></td></tr>}
-            {loading && <tr colSpan="4"><td colSpan="4"><Loading /></td></tr>}
+            {loading && <tr><td colSpan="5"><Loading /></td></tr>}
             {(contacts && contacts.length > 0) ? (contacts.map((contact, index) => (
               <tr key={index}>
                 <td>{contact.idcontato}</td>
@@ -126,7 +125,7 @@ const VisualizarContatos = () => {
                 ))}</td>
                 <td><Button onClick={() => handleRemoveContato(contact.idcontato)}>Excluir Contato</Button></td>
               </tr>
-            ))) : (<tr><td colSpan="4" className={styles.contactsNotFound}>Nenhum contato encontrado!</td></tr>)}
+            ))) : (error && <tr><td colSpan="5" className={styles.contactsNotFound}>Nenhum contato encontrado!</td></tr>)}
           </tbody>
         </table>
         <div className={styles.addButton}>
