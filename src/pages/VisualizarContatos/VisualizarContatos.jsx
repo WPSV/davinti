@@ -125,7 +125,7 @@ const VisualizarContatos = () => {
                 ))}</td>
                 <td><Button onClick={() => handleRemoveContato(contact.idcontato)}>Excluir Contato</Button></td>
               </tr>
-            ))) : (error && <tr><td colSpan="5" className={styles.contactsNotFound}>Nenhum contato encontrado!</td></tr>)}
+            ))) : (<tr><td colSpan="5" className={styles.contactsNotFound}>Nenhum contato encontrado!</td></tr>)}
           </tbody>
         </table>
         <div className={styles.addButton}>
